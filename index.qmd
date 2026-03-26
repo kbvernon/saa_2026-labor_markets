@@ -1,0 +1,56 @@
+---
+format: 
+  revealjs:
+    theme: [default, custom.scss]
+    minimal: true
+engine: knitr
+---
+
+## The evolution of a labor market {.custom-title}
+
+::: {.authors}
+Kenneth B. Vernon  
+[Scientific Computing and Imaging Institute, University of Utah]{.affiliation}
+
+Kelsey Carlston  
+[School of Business Administration, Gonzaga University]{.affiliation}
+
+Weston C. McCool  
+[Social Sciences Department, CalPoly]{.affiliation}
+
+Kurt M. Wilson  
+[Department of Anthropology, Lawrence University]{.affiliation}
+
+Brian F. Codding  
+[Environmental Studies Program, UCSB]{.affiliation}
+:::
+
+::: {.github}
+{{< iconify fa7-regular:calendar >}} `{r} format(Sys.Date(), "%Y-%m-%d")`
+
+{{< iconify fa:github >}} [kbvernon/saa_2026-labor_markets](https://github.com/kbvernon/saa_2026-labor_markets)
+:::
+
+## Question
+
+## Inspiration
+
+## Production
+
+## Utility
+
+## Supply
+
+## Demand
+
+## Property
+
+## Inequality
+
+## Georgism
+
+## Competition
+
+## Conclusion
+
+## Acknowledgments
