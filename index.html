@@ -28,7 +28,23 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-7f9208578f92a069e06a659aeff89bcc.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-50e6bab922648cadf45db27f894f2649.css">
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -126,42 +142,172 @@
     <div class="slides">
 
 
-<section id="the-evolution-of-a-labor-market" class="slide level2 custom-title">
+<section id="the-evolution-of-a-labor-market" class="slide level2 custom-title" data-visibility="uncounted">
 <h2>The evolution of a labor market</h2>
 <div class="authors">
-<p>Kenneth B. Vernon<br>
-<span class="affiliation">Scientific Computing and Imaging Institute, University of Utah</span></p>
-<p>Kelsey Carlston<br>
-<span class="affiliation">School of Business Administration, Gonzaga University</span></p>
-<p>Weston C. McCool<br>
-<span class="affiliation">Social Sciences Department, CalPoly</span></p>
-<p>Kurt M. Wilson<br>
-<span class="affiliation">Department of Anthropology, Lawrence University</span></p>
-<p>Brian F. Codding<br>
-<span class="affiliation">Environmental Studies Program, UCSB</span></p>
+<p>Kenneth B. Vernon <span class="affiliation">Scientific Computing and Imaging Institute, University of Utah</span></p>
+<p>Kelsey Carlston <span class="affiliation">School of Business Administration, Gonzaga University</span></p>
+<p>Weston C. McCool <span class="affiliation">Department of Social Sciences, CalPoly</span></p>
+<p>Kurt M. Wilson <span class="affiliation">Department of Anthropology, Lawrence University</span></p>
+<p>Brian F. Codding <span class="affiliation">Environmental Studies and Geography, UCSB</span></p>
 </div>
 <div class="github">
-<p><iconify-icon role="img" inline="" icon="fa7-regular:calendar" aria-label="Icon calendar from fa7-regular Iconify.design set." title="Icon calendar from fa7-regular Iconify.design set."></iconify-icon> 2026-03-26</p>
+<p><iconify-icon role="img" inline="" icon="fa7-regular:calendar" aria-label="Icon calendar from fa7-regular Iconify.design set." title="Icon calendar from fa7-regular Iconify.design set."></iconify-icon> 2026-03-31</p>
 <p><iconify-icon role="img" inline="" icon="fa:github" aria-label="Icon github from fa Iconify.design set." title="Icon github from fa Iconify.design set."></iconify-icon> <a href="https://github.com/kbvernon/saa_2026-labor_markets">kbvernon/saa_2026-labor_markets</a></p>
+</div>
+</section>
+<section id="inspiration" class="slide level2">
+<h2>Inspiration</h2>
+<p>Variations on the Patron-Client Model:</p>
+<div class="reference">
+<div class="title">
+<p>The marginal utility of inequality: A global examination across ethnographic societies</p>
+</div>
+<div class="metadata">
+<p><em>Human Nature</em> 31 (2020)<br>
+<iconify-icon role="img" inline="" icon="bi:people" aria-label="Icon people from bi Iconify.design set." title="Icon people from bi Iconify.design set."></iconify-icon> Kurt M. Wilson and Brian F. Codding<br>
+<iconify-icon role="img" inline="" icon="academicons:doi" aria-label="Icon doi from academicons Iconify.design set." title="Icon doi from academicons Iconify.design set."></iconify-icon> <a href="https://doi.org/10.1007/s12110-020-09383-4">10.1007/s12110-020-09383-4</a></p>
+</div>
+</div>
+<div class="reference">
+<div class="title">
+<p>The origins of inequality: Insiders, outsiders, elites, and commoners</p>
+</div>
+<div class="metadata">
+<p><em>Journal of Political Economy</em> 121(3) (2013)<br>
+<iconify-icon role="img" inline="" icon="bi:people" aria-label="Icon people from bi Iconify.design set." title="Icon people from bi Iconify.design set."></iconify-icon> Gregoy K. Dow and Clyde G. Reed<br>
+<iconify-icon role="img" inline="" icon="academicons:doi" aria-label="Icon doi from academicons Iconify.design set." title="Icon doi from academicons Iconify.design set."></iconify-icon> <a href="https://doi.org/10.1086/670741">10.1086/670741</a></p>
+</div>
+</div>
+</section>
+<section id="context" class="slide level2">
+<h2>Context</h2>
+<p>The circular economy…</p>
+<div class="r-stack">
+<p><img data-src="figures/economy-0-circular.svg" class="fragment fade-out" data-fragment-index="1"></p>
+<p><img data-src="figures/economy-1-polanyi.svg" class="fragment fade-in-then-out" data-fragment-index="1"></p>
+<p><img data-src="figures/economy-2-subsistence.svg" class="fragment fade-in-then-out" data-fragment-index="2"></p>
 </div>
 </section>
 <section id="question" class="slide level2">
 <h2>Question</h2>
+<div class="r-stack">
+<p><img data-src="figures/question-0-x-axis.svg"></p>
+<p><img data-src="figures/question-1-text-1.svg" class="fragment fade-out" data-fragment-index="1"></p>
+<p><img data-src="figures/question-2-y-axis-and-slopes.svg" class="fragment fade-in" data-fragment-index="1"></p>
+<p><img data-src="figures/question-3-text-2.svg" class="fragment fade-in-then-out" data-fragment-index="1"></p>
+<p><img data-src="figures/question-4-text-3.svg" class="fragment fade-in" data-fragment-index="2"></p>
+</div>
 </section>
-<section id="inspiration" class="slide level2">
-<h2>Inspiration</h2>
+<section id="challenge" class="slide level2">
+<h2>Challenge</h2>
+<p>We need to…</p>
+<div style="margin: 1em;">
+<ol type="1">
+<li>define the costs and benefits of each strategy and</li>
+<li>explain why individuals would choose one strategy over another.</li>
+</ol>
+</div>
+<div class="fragment fade-in">
+<p>To that end, we will develop a <u><strong>formal equilibrium model</strong></u>,</p>
+</div>
+<div class="fragment fade-in">
+<p>i.e., we will apply <u><strong>neoclassical orthodoxy</strong></u>. <span class="text-mono text-muted">[cue Wilhelm scream]</span></p>
+</div>
+</section>
+<section id="economy" class="slide level2">
+<h2>Economy</h2>
+<p>We assume an agrarian subsistence economy in which…</p>
+<div style="margin: 1em;">
+<ol type="1">
+<li>there is no trade or migration (the economy is isolated),</li>
+<li>production occurs on farms privately held by households, and</li>
+<li>factors are limited to labor (a variable input) and land (a fixed input).</li>
+</ol>
+</div>
 </section>
 <section id="production" class="slide level2">
 <h2>Production</h2>
+<p>The energetic output of an individual farm is given by…</p>
+<div class="r-stack">
+<p><img data-src="figures/production-0-axes.svg"></p>
+<p><img data-src="figures/production-1-total.svg" class="fragment fade-out" data-fragment-index="1"></p>
+<p><img data-src="figures/production-2-average.svg" class="fragment fade-in-then-out" data-fragment-index="1"></p>
+<p><img data-src="figures/production-3-marginal.svg" class="fragment fade-in-then-out" data-fragment-index="2"></p>
+</div>
 </section>
 <section id="utility" class="slide level2">
 <h2>Utility</h2>
+<p>We assign to each farm a time budget, <span class="math inline">T</span>, and assume that they are utility maximizers:</p>
+<div style="margin: 2em 1em;">
+<table class="eq-table caption-top">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 84%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Clients:</td>
+<td><span class="math inline">\max U_{c} = f(T-L) + wL \quad\;\; \text{s.t.}\;\; L \leq T</span></td>
+</tr>
+<tr class="even">
+<td>Patrons:</td>
+<td><span class="math inline">\max U_{p} = f(T+L) - wL</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>where <span class="math inline">w</span> is the market wage and <span class="math inline">L</span> is time invested in wage-labor.</p>
+<div class="fragment fade-in min-callout-note" style="margin-top: 2em">
+<p><iconify-icon role="img" inline="" icon="pixel:lightbulb" aria-label="Icon lightbulb from pixel Iconify.design set." title="Icon lightbulb from pixel Iconify.design set."></iconify-icon> <span class="title">note:</span> When <span class="math inline">L = 0</span>, production reduces to pure subsistence, <span class="math inline">f(T)</span>, in which case, there are no patrons or clients.</p>
+</div>
 </section>
 <section id="supply" class="slide level2">
 <h2>Supply</h2>
+<table class="eq-table caption-top">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 84%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Clients:</td>
+<td><span class="math inline">\max U_{c} = f(T-L) + wL \quad\;\; \text{s.t.}\;\; L \leq T</span></td>
+</tr>
+</tbody>
+</table>
+<div class="r-stack">
+<p><img data-src="figures/supply-0-axes.svg"></p>
+<p><img data-src="figures/supply-1-subsistence.svg" class="fragment fade-out" data-fragment-index="1"></p>
+<p><img data-src="figures/supply-2-market.svg" class="fragment fade-in-then-out" data-fragment-index="1"></p>
+<p><img data-src="figures/supply-3-wages.svg" class="fragment fade-in-then-out" data-fragment-index="2"></p>
+<p><img data-src="figures/supply-4-threshold.svg" class="fragment fade-in-then-out" data-fragment-index="3"></p>
+<p><img data-src="figures/supply-5-utility.svg" class="fragment fade-in" data-fragment-index="4"></p>
+</div>
+<p><span class="fragment" data-fragment-index="5">Total supply <span class="math inline">S(w)</span> is sum of <span class="math inline">L^*</span> for all client farms.</span></p>
 </section>
 <section id="demand" class="slide level2">
 <h2>Demand</h2>
+<table class="eq-table caption-top">
+<tbody>
+<tr class="odd">
+<td>Patrons:</td>
+<td><span class="math inline">\max U_{p} = f(T+L) - wL</span></td>
+</tr>
+</tbody>
+</table>
+<div class="r-stack">
+<p><img data-src="figures/demand-0-axes.svg"></p>
+<p><img data-src="figures/demand-1-subsistence.svg" class="fragment fade-out" data-fragment-index="1"></p>
+<p><img data-src="figures/demand-2-market.svg" class="fragment fade-in-then-out" data-fragment-index="1"></p>
+<p><img data-src="figures/demand-3-wages.svg" class="fragment fade-in-then-out" data-fragment-index="2"></p>
+<p><img data-src="figures/demand-4-threshold.svg" class="fragment fade-in-then-out" data-fragment-index="3"></p>
+<p><img data-src="figures/demand-5-utility.svg" class="fragment fade-in" data-fragment-index="4"></p>
+</div>
+<p><span class="fragment" data-fragment-index="5">Total demand <span class="math inline">D(w)</span> is sum of <span class="math inline">L^*</span> for all patron farms.</span></p>
+</section>
+<section id="equilibrium" class="slide level2">
+<h2>Equilibrium</h2>
 </section>
 <section id="property" class="slide level2">
 <h2>Property</h2>
@@ -202,7 +348,6 @@
   <script src="index_files/libs/revealjs/plugin/notes/notes.js"></script>
   <script src="index_files/libs/revealjs/plugin/search/search.js"></script>
   <script src="index_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="index_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
@@ -238,7 +383,7 @@
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -370,27 +515,9 @@
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
 
-        math: {
-          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
-          config: 'TeX-AMS_HTML-full',
-          tex2jax: {
-            inlineMath: [['\\(','\\)']],
-            displayMath: [['\\[','\\]']],
-            balanceBraces: true,
-            processEscapes: false,
-            processRefs: true,
-            processEnvironments: true,
-            preview: 'TeX',
-            skipTags: ['script','noscript','style','textarea','pre','code'],
-            ignoreClass: 'tex2jax_ignore',
-            processClass: 'tex2jax_process'
-          },
-        },
-
         // reveal.js plugins
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
-          RevealMath,
           RevealNotes,
           RevealSearch,
           RevealZoom

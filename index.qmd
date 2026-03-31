@@ -3,26 +3,23 @@ format:
   revealjs:
     theme: [default, custom.scss]
     minimal: true
+    html-math-method: katex
+    slide-number: true
 engine: knitr
 ---
 
-## The evolution of a labor market {.custom-title}
+## The evolution of a labor market {.custom-title visibility="uncounted"}
 
 ::: {.authors}
-Kenneth B. Vernon  
-[Scientific Computing and Imaging Institute, University of Utah]{.affiliation}
+Kenneth B. Vernon [Scientific Computing and Imaging Institute, University of Utah]{.affiliation}
 
-Kelsey Carlston  
-[School of Business Administration, Gonzaga University]{.affiliation}
+Kelsey Carlston [School of Business Administration, Gonzaga University]{.affiliation}
 
-Weston C. McCool  
-[Social Sciences Department, CalPoly]{.affiliation}
+Weston C. McCool [Department of Social Sciences, CalPoly]{.affiliation}
 
-Kurt M. Wilson  
-[Department of Anthropology, Lawrence University]{.affiliation}
+Kurt M. Wilson [Department of Anthropology, Lawrence University]{.affiliation}
 
-Brian F. Codding  
-[Environmental Studies Program, UCSB]{.affiliation}
+Brian F. Codding [Environmental Studies and Geography, UCSB]{.affiliation}
 :::
 
 ::: {.github}
@@ -31,17 +28,176 @@ Brian F. Codding
 {{< iconify fa:github >}} [kbvernon/saa_2026-labor_markets](https://github.com/kbvernon/saa_2026-labor_markets)
 :::
 
+## Inspiration
+
+Variations on the Patron-Client Model:
+
+:::::: {.reference}
+
+::: {.title}
+The marginal utility of inequality: A global examination across ethnographic societies
+:::
+
+::: {.metadata}
+*Human Nature* 31 (2020)  
+{{< iconify bi:people >}} Kurt M. Wilson and Brian F. Codding  
+{{< iconify academicons:doi >}} [10.1007/s12110-020-09383-4](https://doi.org/10.1007/s12110-020-09383-4)
+:::
+
+::::::
+
+:::::: {.reference}
+
+::: {.title}
+The origins of inequality: Insiders, outsiders, elites, and commoners
+:::
+
+::: {.metadata}
+*Journal of Political Economy* 121(3) (2013)  
+{{< iconify bi:people >}} Gregoy K. Dow and Clyde G. Reed  
+{{< iconify academicons:doi >}} [10.1086/670741](https://doi.org/10.1086/670741)
+:::
+
+::::::
+
+## Context
+
+The circular economy...
+
+::: {.r-stack}
+![](figures/economy-0-circular.svg){.fragment .fade-out fragment-index=1}
+
+![](figures/economy-1-polanyi.svg){.fragment .fade-in-then-out fragment-index=1}
+
+![](figures/economy-2-subsistence.svg){.fragment .fade-in-then-out fragment-index=2}
+:::
+
 ## Question
 
-## Inspiration
+::: {.r-stack}
+![](figures/question-0-x-axis.svg)
+
+![](figures/question-1-text-1.svg){.fragment .fade-out fragment-index=1}
+
+![](figures/question-2-y-axis-and-slopes.svg){.fragment .fade-in fragment-index=1}
+
+![](figures/question-3-text-2.svg){.fragment .fade-in-then-out fragment-index=1}
+
+![](figures/question-4-text-3.svg){.fragment .fade-in fragment-index=2}
+:::
+
+## Challenge
+
+We need to...
+
+::: {style="margin: 1em;"}
+1. define the costs and benefits of each strategy and
+2. explain why individuals would choose one strategy over another. 
+:::
+
+::: {.fragment .fade-in}
+To that end, we will develop a [**formal equilibrium model**]{.underline},
+:::
+
+::: {.fragment .fade-in}
+i.e., we will apply [**neoclassical orthodoxy**]{.underline}. [\[cue Wilhelm scream\]]{.text-mono .text-muted}
+:::
+
+## Economy
+
+We assume an agrarian subsistence economy in which...
+
+::: {style="margin: 1em;"}
+
+1. there is no trade or migration (the economy is isolated),
+2. production occurs on farms privately held by households, and
+3. factors are limited to labor (a variable input) and land (a fixed input).
+
+:::
 
 ## Production
 
+The energetic output of an individual farm is given by...
+
+::: {.r-stack}
+![](figures/production-0-axes.svg)
+
+![](figures/production-1-total.svg){.fragment .fade-out fragment-index=1}
+
+![](figures/production-2-average.svg){.fragment .fade-in-then-out fragment-index=1}
+
+![](figures/production-3-marginal.svg){.fragment .fade-in-then-out fragment-index=2}
+:::
+
 ## Utility
+
+We assign to each farm a time budget, $T$, and assume that they are utility
+maximizers:
+
+::: {style="margin: 2em 1em;"}
+
+|            |                                                               |
+|------------|---------------------------------------------------------------|
+| Clients:   | $\max U_{c} = f(T-L) + wL \quad\;\; \text{s.t.}\;\; L \leq T$ |
+| Patrons:   | $\max U_{p} = f(T+L) - wL$                                    |
+: {.eq-table}
+
+:::
+
+where $w$ is the market wage and $L$ is time invested in wage-labor.
+
+::: {.fragment .fade-in .min-callout-note style="margin-top: 2em"}
+{{< iconify pixel:lightbulb >}} [note:]{.title} When $L = 0$, production reduces 
+to pure subsistence, $f(T)$, in which case, there are no patrons or clients.
+:::
 
 ## Supply
 
+|            |                                                               |
+|------------|---------------------------------------------------------------|
+| Clients:   | $\max U_{c} = f(T-L) + wL \quad\;\; \text{s.t.}\;\; L \leq T$ |
+: {.eq-table}
+
+::: {.r-stack}
+![](figures/supply-0-axes.svg)
+
+![](figures/supply-1-subsistence.svg){.fragment .fade-out fragment-index=1}
+
+![](figures/supply-2-market.svg){.fragment .fade-in-then-out fragment-index=1}
+
+![](figures/supply-3-wages.svg){.fragment .fade-in-then-out fragment-index=2}
+
+![](figures/supply-4-threshold.svg){.fragment .fade-in-then-out fragment-index=3}
+
+![](figures/supply-5-utility.svg){.fragment .fade-in fragment-index=4}
+:::
+
+[Total supply $S(w)$ is sum of $L^*$ for all client farms.]{.fragment fragment-index=5}
+
 ## Demand
+
+|            |                            |
+|------------|----------------------------|
+| Patrons:   | $\max U_{p} = f(T+L) - wL$ |
+: {.eq-table}
+
+::: {.r-stack}
+![](figures/demand-0-axes.svg)
+
+![](figures/demand-1-subsistence.svg){.fragment .fade-out fragment-index=1}
+
+![](figures/demand-2-market.svg){.fragment .fade-in-then-out fragment-index=1}
+
+![](figures/demand-3-wages.svg){.fragment .fade-in-then-out fragment-index=2}
+
+![](figures/demand-4-threshold.svg){.fragment .fade-in-then-out fragment-index=3}
+
+![](figures/demand-5-utility.svg){.fragment .fade-in fragment-index=4}
+:::
+
+[Total demand $D(w)$ is sum of $L^*$ for all patron farms.]{.fragment fragment-index=5}
+
+## Equilibrium
 
 ## Property
 
