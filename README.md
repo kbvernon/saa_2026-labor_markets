@@ -17,7 +17,7 @@ to easily navigate the presentation.
 
 **Session:** "Behavioral Ecology and Agriculture"
 
-**Title:** "The evoluation of a labor market"
+**Title:** "The evolution of a labor market"
 
 **Authors:** K. Blake Vernon, Kelsey Carlston, Weston C. McCool, Kurt M. Wilson,
 Brian F. Codding
