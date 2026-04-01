@@ -215,6 +215,26 @@ Environmental heterogeneity is necessary and sufficient for $L^* > 0$
 [*within this economy*]{.text-muted}.
 :::
 
+## Strategy
+
+But where did the patrons and clients come from?
+
+::: {.r-stack}
+![](figures/strategy-0-axis.svg){.fragment .fade-out fragment-index=1}
+
+![](figures/strategy-1-clients.svg){.fragment .fade-in-then-out fragment-index=1}
+
+![](figures/strategy-2-patrons.svg){.fragment .fade-in-then-out fragment-index=2}
+
+![](figures/strategy-3.svg){.fragment .fade-in fragment-index=3}
+:::
+
+::: {.fragment .fade-in fragment-index=3 .min-callout-note style="margin-top: 1em"}
+{{< iconify pixel:lightbulb >}} [note:]{.title} Differentiation into market 
+roles is most likely to start in the tails of the distribution.
+:::
+
+
 ## Competition
 
 Market frictions...
@@ -223,9 +243,9 @@ Market frictions...
 
 If [A]{.text-mono} is sufficiently far, then competition between [A]{.text-mono} 
 and [B]{.text-mono} for the household's labor will be imperfect, as [B]{.text-mono} 
-may be able to set wages.
+will be able to set wages.
 
-::: {.fragment .fade-in .min-callout-note style="margin-top: 2em"}
+::: {.fragment .fade-in .min-callout-note style="margin-top: 1em"}
 {{< iconify pixel:lightbulb >}} [note:]{.title} Failures of perfect competition 
 in the Neolithic - notably the potential for monopsony power - is where we 
 should look for the origins of inequality.
@@ -245,7 +265,7 @@ On this simple application of the neoclassical labor market model...
 ### WEAKNESSES, maybe
 
 - Apolitical: [As presented, the model is largely silent about institutions, but that doesn't mean it has nothing to say about them!]{.text-muted}  
-- Static: [The model does not account for population dynamics and changes in climate over time.]{.text-muted}  
+- Static: [The model does not account for population dynamics and changes in climate over time, but we can use it to do comparative statics!]{.text-muted}  
 
 ## Acknowledgments
 
