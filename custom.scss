@@ -110,14 +110,7 @@ $presentation-h3-font-size: 1.4em;
         }
     }
 
-    ul {
-        list-style: none;
-
-        li::before {
-            content: "\2013  ";
-        }
-    }
-
+    img,
     p img,
     p:has(img) {
         margin: 0;
@@ -139,6 +132,10 @@ $presentation-h3-font-size: 1.4em;
         font-family: $font-family-monospace;
     }
 
+    .text-light {
+        font-weight: 200;
+    }
+
     .min-callout-note {
         padding-left: 0.5em;
         border-left: 2px solid $text-muted;
@@ -154,6 +151,59 @@ $presentation-h3-font-size: 1.4em;
 
         iconify-icon {
             color: $text-muted
+        }
+    }
+
+    .slide {
+        ul {
+            list-style: none;
+            padding-left: 1.2em;
+
+            li {
+                &::marker {
+                    content: "\2013\00a0\00a0";
+                }
+            }
+        }
+
+        ul,
+        ol {
+            margin-top: 1em;
+            margin-left: 1em;
+            margin-right: 1em;
+
+            &+* {
+                margin-top: 1em;
+            }
+        }
+
+        &#conclusion {
+            h3 {
+                margin-bottom: 0;
+                font-family: $font-family-monospace;
+                font-weight: 400;
+                font-size: $presentation-font-size-root;
+                margin-top: 1em;
+
+                &:first-child {
+                    margin-top: 0;
+                }
+            }
+
+            ul,
+            ol {
+                margin-top: 0;
+            }
+        }
+
+        &#acknowledgments {
+            a {
+                color: $text-muted;
+            }
+
+            a:hover {
+                color: $body-color;
+            }
         }
     }
 }

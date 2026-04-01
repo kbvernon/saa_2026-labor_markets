@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-e826fdda0ed31f1db2e0c60646325e64.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-5b2b84938332deaf7208533e0f03d9d1.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -186,12 +186,10 @@
 <section id="challenge" class="slide level2">
 <h2>Challenge</h2>
 <p>We need to…</p>
-<div style="margin: 1em;">
 <ol type="1">
 <li>define the costs and benefits of each strategy and</li>
 <li>explain why individuals would choose one strategy over another.</li>
 </ol>
-</div>
 <div class="fragment fade-in">
 <p>To that end, we will develop a <u><strong>formal equilibrium model</strong></u>,</p>
 </div>
@@ -202,13 +200,12 @@
 <section id="economy" class="slide level2">
 <h2>Economy</h2>
 <p>We assume an agrarian subsistence economy in which…</p>
-<div style="margin: 1em;">
 <ol type="1">
 <li>there is no trade or migration (the economy is isolated),</li>
-<li>production occurs on farms privately held by households, and</li>
-<li>factors are limited to labor (a variable input) and land (a fixed input).</li>
+<li>production occurs on farms privately held by households,</li>
+<li>factors are limited to labor (a variable input) and land (a fixed input), and</li>
+<li>competition is perfect (everyone is a price-<em>taker</em>).</li>
 </ol>
-</div>
 </section>
 <section id="production" class="slide level2">
 <h2>Production</h2>
@@ -268,7 +265,9 @@
 <p><img data-src="figures/supply-4-threshold.svg" class="fragment fade-in-then-out" data-fragment-index="3"></p>
 <p><img data-src="figures/supply-5-utility.svg" class="fragment fade-in" data-fragment-index="4"></p>
 </div>
-<p><span class="fragment" data-fragment-index="5">Total supply <span class="math inline">\(S(w)\)</span> is sum of <span class="math inline">\(L^*\)</span> for all client farms.</span></p>
+<div class="fragment" data-fragment-index="5">
+<p>Total supply <span class="math inline">\(S(w)\)</span> is sum of <span class="math inline">\(L^*\)</span> for all client farms.</p>
+</div>
 </section>
 <section id="demand" class="slide level2">
 <h2>Demand</h2>
@@ -288,28 +287,59 @@
 <p><img data-src="figures/demand-4-threshold.svg" class="fragment fade-in-then-out" data-fragment-index="3"></p>
 <p><img data-src="figures/demand-5-utility.svg" class="fragment fade-in" data-fragment-index="4"></p>
 </div>
-<p><span class="fragment" data-fragment-index="5">Total demand <span class="math inline">\(D(w)\)</span> is sum of <span class="math inline">\(L^*\)</span> for all patron farms.</span></p>
+<div class="fragment" data-fragment-index="5">
+<p>Total demand <span class="math inline">\(D(w)\)</span> is sum of <span class="math inline">\(L^*\)</span> for all patron farms.</p>
+</div>
 </section>
 <section id="equilibrium" class="slide level2">
 <h2>Equilibrium</h2>
-</section>
-<section id="property" class="slide level2">
-<h2>Property</h2>
-</section>
-<section id="inequality" class="slide level2">
-<h2>Inequality</h2>
-</section>
-<section id="georgism" class="slide level2">
-<h2>Georgism</h2>
+<p>Obtained by setting supply equal to demand…</p>
+<div class="r-stack">
+<p><img data-src="figures/equilibrium-0-homogeneous.svg" class="fragment fade-out" data-fragment-index="1"></p>
+<p><img data-src="figures/equilibrium-1-increase-wage.svg" class="fragment fade-in-then-out" data-fragment-index="1"></p>
+<p><img data-src="figures/equilibrium-2-decrease-wage.svg" class="fragment fade-in-then-out" data-fragment-index="2"></p>
+<p><img data-src="figures/equilibrium-3-heterogeneous.svg" class="fragment fade-in" data-fragment-index="3"></p>
+</div>
+<div class="fragment">
+<p>Environmental heterogeneity is necessary and sufficient for <span class="math inline">\(L^* &gt; 0\)</span> <span class="text-muted"><em>within this economy</em></span>.</p>
+</div>
 </section>
 <section id="competition" class="slide level2">
 <h2>Competition</h2>
+<p>Market frictions…</p>
+<p><img data-src="figures/friction.svg"></p>
+<p>If <span class="text-mono">A</span> is sufficiently far, then competition between <span class="text-mono">A</span> and <span class="text-mono">B</span> for the household’s labor will be imperfect, as <span class="text-mono">B</span> may be able to set wages.</p>
+<div class="fragment fade-in min-callout-note" style="margin-top: 2em">
+<p><iconify-icon role="img" inline="" icon="pixel:lightbulb" aria-label="Icon lightbulb from pixel Iconify.design set." title="Icon lightbulb from pixel Iconify.design set."></iconify-icon> <span class="title">note:</span> Failures of perfect competition in the Neolithic - notably the potential for monopsony power - is where we should look for the origins of inequality.</p>
+</div>
 </section>
 <section id="conclusion" class="slide level2">
 <h2>Conclusion</h2>
+<p>On this simple application of the neoclassical labor market model…</p>
+<h3 id="strengths">STRENGTHS</h3>
+<ul>
+<li>Orthodox: <span class="text-muted">Nothing in this should surprise an economist - it’s econ 101.</span><br>
+</li>
+<li>Darwinian: <span class="text-muted">There’s no collective action or group selection anywhere.</span><br>
+</li>
+<li>Unifying: <span class="text-muted">Many ideas about inequality can be consumed by this model.</span></li>
+<li>Simple: <span class="text-muted">Promotes economy of thought, <em>contra</em> post-modernism.</span></li>
+</ul>
+<h3 id="weaknesses-maybe">WEAKNESSES, maybe</h3>
+<ul>
+<li>Apolitical: <span class="text-muted">As presented, the model is largely silent about institutions, but that doesn’t mean it has nothing to say about them!</span><br>
+</li>
+<li>Static: <span class="text-muted">The model does not account for population dynamics and changes in climate over time.</span></li>
+</ul>
 </section>
 <section id="acknowledgments" class="slide level2">
 <h2>Acknowledgments</h2>
+<ul>
+<li>Scott Ortman <a href="https://www.colorado.edu/anthropology/scott-ortman">COLORADO</a></li>
+<li>Scientific Computing and Imaging <a href="https://sci.utah.edu/">UTAH</a></li>
+<li>Environment, Society, and Sustainability <a href="https://ess.utah.edu/">UTAH</a></li>
+<li>Department of Anthropology <a href="https://anthro.utah.edu/">UTAH</a></li>
+</ul>
 
 </section>
     </div>

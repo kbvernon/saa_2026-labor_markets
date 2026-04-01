@@ -4,6 +4,7 @@ format:
     theme: [default, custom.scss]
     minimal: true
     slide-number: true
+    auto-stretch: false
 engine: knitr
 ---
 
@@ -89,10 +90,8 @@ The circular economy...
 
 We need to...
 
-::: {style="margin: 1em;"}
 1. define the costs and benefits of each strategy and
 2. explain why individuals would choose one strategy over another. 
-:::
 
 ::: {.fragment .fade-in}
 To that end, we will develop a [**formal equilibrium model**]{.underline},
@@ -106,13 +105,10 @@ i.e., we will apply [**neoclassical orthodoxy**]{.underline}. [\[cue Wilhelm scr
 
 We assume an agrarian subsistence economy in which...
 
-::: {style="margin: 1em;"}
-
 1. there is no trade or migration (the economy is isolated),
-2. production occurs on farms privately held by households, and
-3. factors are limited to labor (a variable input) and land (a fixed input).
-
-:::
+2. production occurs on farms privately held by households, 
+3. factors are limited to labor (a variable input) and land (a fixed input), and
+4. competition is perfect (everyone is a price-*taker*).
 
 ## Production
 
@@ -171,7 +167,9 @@ to pure subsistence, $f(T)$, in which case, there are no patrons or clients.
 ![](figures/supply-5-utility.svg){.fragment .fade-in fragment-index=4}
 :::
 
-[Total supply $S(w)$ is sum of $L^*$ for all client farms.]{.fragment fragment-index=5}
+::: {.fragment fragment-index=5}
+Total supply $S(w)$ is sum of $L^*$ for all client farms.
+:::
 
 ## Demand
 
@@ -194,18 +192,64 @@ to pure subsistence, $f(T)$, in which case, there are no patrons or clients.
 ![](figures/demand-5-utility.svg){.fragment .fade-in fragment-index=4}
 :::
 
-[Total demand $D(w)$ is sum of $L^*$ for all patron farms.]{.fragment fragment-index=5}
+::: {.fragment fragment-index=5}
+Total demand $D(w)$ is sum of $L^*$ for all patron farms.
+:::
 
 ## Equilibrium
 
-## Property
+Obtained by setting supply equal to demand...
 
-## Inequality
+::: {.r-stack}
+![](figures/equilibrium-0-homogeneous.svg){.fragment .fade-out fragment-index=1}
 
-## Georgism
+![](figures/equilibrium-1-increase-wage.svg){.fragment .fade-in-then-out fragment-index=1}
+
+![](figures/equilibrium-2-decrease-wage.svg){.fragment .fade-in-then-out fragment-index=2}
+
+![](figures/equilibrium-3-heterogeneous.svg){.fragment .fade-in fragment-index=3}
+:::
+
+::: {.fragment}
+Environmental heterogeneity is necessary and sufficient for $L^* > 0$
+[*within this economy*]{.text-muted}.
+:::
 
 ## Competition
 
+Market frictions...
+
+![](figures/friction.svg)
+
+If [A]{.text-mono} is sufficiently far, then competition between [A]{.text-mono} 
+and [B]{.text-mono} for the household's labor will be imperfect, as [B]{.text-mono} 
+may be able to set wages.
+
+::: {.fragment .fade-in .min-callout-note style="margin-top: 2em"}
+{{< iconify pixel:lightbulb >}} [note:]{.title} Failures of perfect competition 
+in the Neolithic - notably the potential for monopsony power - is where we 
+should look for the origins of inequality.
+:::
+
 ## Conclusion
 
+On this simple application of the neoclassical labor market model...
+
+### STRENGTHS
+
+- Orthodox: [Nothing in this should surprise an economist - it's econ 101.]{.text-muted}  
+- Darwinian: [There's no collective action or group selection anywhere.]{.text-muted}  
+- Unifying: [Many ideas about inequality can be consumed by this model.]{.text-muted}
+- Simple: [Promotes economy of thought, *contra* post-modernism.]{.text-muted}  
+
+### WEAKNESSES, maybe
+
+- Apolitical: [As presented, the model is largely silent about institutions, but that doesn't mean it has nothing to say about them!]{.text-muted}  
+- Static: [The model does not account for population dynamics and changes in climate over time.]{.text-muted}  
+
 ## Acknowledgments
+
+- Scott Ortman [COLORADO](https://www.colorado.edu/anthropology/scott-ortman)
+- Scientific Computing and Imaging [UTAH](https://sci.utah.edu/)
+- Environment, Society, and Sustainability [UTAH](https://ess.utah.edu/)
+- Department of Anthropology [UTAH](https://anthro.utah.edu/)
