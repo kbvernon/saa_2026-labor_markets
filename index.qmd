@@ -105,10 +105,10 @@ i.e., we will apply [**neoclassical orthodoxy**]{.underline}. [\[cue Wilhelm scr
 
 We assume an agrarian subsistence economy in which...
 
-1. there is no trade or migration (the economy is isolated),
+1. there is no trade or migration [(the economy is isolated)]{.text-muted},
 2. production occurs on farms privately held by households, 
-3. factors are limited to labor (a variable input) and land (a fixed input), and
-4. competition is perfect (everyone is a price-*taker*).
+3. factors are limited to labor [(a variable input)]{.text-muted} and land [(a fixed input)]{.text-muted}, and
+4. competition is perfect [(everyone is a price-*taker*)]{.text-muted}.
 
 ## Production
 
