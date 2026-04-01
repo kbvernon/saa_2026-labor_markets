@@ -29,22 +29,6 @@
     }
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-50e6bab922648cadf45db27f894f2649.css">
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -152,7 +136,7 @@
 <p>Brian F. Codding <span class="affiliation">Environmental Studies and Geography, UCSB</span></p>
 </div>
 <div class="github">
-<p><iconify-icon role="img" inline="" icon="fa7-regular:calendar" aria-label="Icon calendar from fa7-regular Iconify.design set." title="Icon calendar from fa7-regular Iconify.design set."></iconify-icon> 2026-03-31</p>
+<p><iconify-icon role="img" inline="" icon="fa7-regular:calendar" aria-label="Icon calendar from fa7-regular Iconify.design set." title="Icon calendar from fa7-regular Iconify.design set."></iconify-icon> 2026-04-01</p>
 <p><iconify-icon role="img" inline="" icon="fa:github" aria-label="Icon github from fa Iconify.design set." title="Icon github from fa Iconify.design set."></iconify-icon> <a href="https://github.com/kbvernon/saa_2026-labor_markets">kbvernon/saa_2026-labor_markets</a></p>
 </div>
 </section>
@@ -238,7 +222,7 @@
 </section>
 <section id="utility" class="slide level2">
 <h2>Utility</h2>
-<p>We assign to each farm a time budget, <span class="math inline">T</span>, and assume that they are utility maximizers:</p>
+<p>We assign to each farm a time budget, <span class="math inline">\(T\)</span>, and assume that they are utility maximizers:</p>
 <div style="margin: 2em 1em;">
 <table class="eq-table caption-top">
 <colgroup>
@@ -248,18 +232,18 @@
 <tbody>
 <tr class="odd">
 <td>Clients:</td>
-<td><span class="math inline">\max U_{c} = f(T-L) + wL \quad\;\; \text{s.t.}\;\; L \leq T</span></td>
+<td><span class="math inline">\(\max U_{c} = f(T-L) + wL \quad\;\; \text{s.t.}\;\; L \leq T\)</span></td>
 </tr>
 <tr class="even">
 <td>Patrons:</td>
-<td><span class="math inline">\max U_{p} = f(T+L) - wL</span></td>
+<td><span class="math inline">\(\max U_{p} = f(T+L) - wL\)</span></td>
 </tr>
 </tbody>
 </table>
 </div>
-<p>where <span class="math inline">w</span> is the market wage and <span class="math inline">L</span> is time invested in wage-labor.</p>
+<p>where <span class="math inline">\(w\)</span> is the market wage and <span class="math inline">\(L\)</span> is time invested in wage-labor.</p>
 <div class="fragment fade-in min-callout-note" style="margin-top: 2em">
-<p><iconify-icon role="img" inline="" icon="pixel:lightbulb" aria-label="Icon lightbulb from pixel Iconify.design set." title="Icon lightbulb from pixel Iconify.design set."></iconify-icon> <span class="title">note:</span> When <span class="math inline">L = 0</span>, production reduces to pure subsistence, <span class="math inline">f(T)</span>, in which case, there are no patrons or clients.</p>
+<p><iconify-icon role="img" inline="" icon="pixel:lightbulb" aria-label="Icon lightbulb from pixel Iconify.design set." title="Icon lightbulb from pixel Iconify.design set."></iconify-icon> <span class="title">note:</span> When <span class="math inline">\(L = 0\)</span>, production reduces to pure subsistence, <span class="math inline">\(f(T)\)</span>, in which case, there are no patrons or clients.</p>
 </div>
 </section>
 <section id="supply" class="slide level2">
@@ -272,7 +256,7 @@
 <tbody>
 <tr class="odd">
 <td>Clients:</td>
-<td><span class="math inline">\max U_{c} = f(T-L) + wL \quad\;\; \text{s.t.}\;\; L \leq T</span></td>
+<td><span class="math inline">\(\max U_{c} = f(T-L) + wL \quad\;\; \text{s.t.}\;\; L \leq T\)</span></td>
 </tr>
 </tbody>
 </table>
@@ -284,7 +268,7 @@
 <p><img data-src="figures/supply-4-threshold.svg" class="fragment fade-in-then-out" data-fragment-index="3"></p>
 <p><img data-src="figures/supply-5-utility.svg" class="fragment fade-in" data-fragment-index="4"></p>
 </div>
-<p><span class="fragment" data-fragment-index="5">Total supply <span class="math inline">S(w)</span> is sum of <span class="math inline">L^*</span> for all client farms.</span></p>
+<p><span class="fragment" data-fragment-index="5">Total supply <span class="math inline">\(S(w)\)</span> is sum of <span class="math inline">\(L^*\)</span> for all client farms.</span></p>
 </section>
 <section id="demand" class="slide level2">
 <h2>Demand</h2>
@@ -292,7 +276,7 @@
 <tbody>
 <tr class="odd">
 <td>Patrons:</td>
-<td><span class="math inline">\max U_{p} = f(T+L) - wL</span></td>
+<td><span class="math inline">\(\max U_{p} = f(T+L) - wL\)</span></td>
 </tr>
 </tbody>
 </table>
@@ -304,7 +288,7 @@
 <p><img data-src="figures/demand-4-threshold.svg" class="fragment fade-in-then-out" data-fragment-index="3"></p>
 <p><img data-src="figures/demand-5-utility.svg" class="fragment fade-in" data-fragment-index="4"></p>
 </div>
-<p><span class="fragment" data-fragment-index="5">Total demand <span class="math inline">D(w)</span> is sum of <span class="math inline">L^*</span> for all patron farms.</span></p>
+<p><span class="fragment" data-fragment-index="5">Total demand <span class="math inline">\(D(w)\)</span> is sum of <span class="math inline">\(L^*\)</span> for all patron farms.</span></p>
 </section>
 <section id="equilibrium" class="slide level2">
 <h2>Equilibrium</h2>
@@ -348,6 +332,7 @@
   <script src="index_files/libs/revealjs/plugin/notes/notes.js"></script>
   <script src="index_files/libs/revealjs/plugin/search/search.js"></script>
   <script src="index_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="index_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
@@ -515,9 +500,27 @@
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
 
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
         // reveal.js plugins
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
+          RevealMath,
           RevealNotes,
           RevealSearch,
           RevealZoom

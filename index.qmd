@@ -3,7 +3,6 @@ format:
   revealjs:
     theme: [default, custom.scss]
     minimal: true
-    html-math-method: katex
     slide-number: true
 engine: knitr
 ---
