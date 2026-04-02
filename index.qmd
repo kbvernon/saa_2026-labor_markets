@@ -237,7 +237,7 @@ roles is most likely to start in the tails of the distribution.
 
 ## Competition
 
-Market frictions...
+Circumscription as market friction...
 
 ![](figures/friction.svg)
 
