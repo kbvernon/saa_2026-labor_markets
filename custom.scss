@@ -157,7 +157,6 @@ $presentation-h3-font-size: 1.4em;
     .slide {
         ul {
             list-style: none;
-            padding-left: 1.2em;
 
             li {
                 &::marker {
@@ -171,6 +170,7 @@ $presentation-h3-font-size: 1.4em;
             margin-top: 1em;
             margin-left: 1em;
             margin-right: 1em;
+            padding-left: 1.2em;
 
             &+* {
                 margin-top: 1em;
