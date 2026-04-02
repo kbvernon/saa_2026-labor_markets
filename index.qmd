@@ -259,7 +259,7 @@ On this simple application of the neoclassical labor market model...
 
 - Orthodox: [Nothing in this should surprise an economist - it's econ 101.]{.text-muted}  
 - Darwinian: [There's no collective action or group selection anywhere.]{.text-muted}  
-- Unifying: [Many ideas about inequality can be consumed by this model.]{.text-muted}
+- Unifying: [Many ideas about inequality can be absorbed into this model.]{.text-muted}
 - Simple: [Promotes economy of thought, *contra* post-modernism.]{.text-muted}  
 
 ### WEAKNESSES, maybe
